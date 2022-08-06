@@ -2,7 +2,12 @@
 
 [go.dev](https://go.dev/)
 
-## IDEs
+## Training courses
+
+* Pluralight
+  * [Go: The Big Picture](https://app.pluralsight.com/library/courses/go-big-picture/table-of-contents) by Mike Van Sickle
+
+## Code editors (IDE)
 
 ### Jetbrains Goland
 
