@@ -10,5 +10,8 @@ go build .
 samples.exe
 
 # from another terminal
-curl http://localhost:3000
+
+curl http://localhost:3000/?name=World
+
+curl -H "Accept: application/json" http://localhost:3000/?name=World
 ```
