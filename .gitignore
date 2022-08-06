@@ -16,3 +16,6 @@
 
 # JetBrains IDE
 .idea/
+
+# Generated debug artifacts
+/samples/**/*.exe

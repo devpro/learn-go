@@ -15,19 +15,19 @@ func main() {
 
 	flag.Parse()
 
-	f, err := os.Open(*path)
-	if err != nil {
-		log.Fatal(err)
+	file, error := os.Open(*path)
+	if error != nil {
+		log.Fatal(error)
 	}
-	defer f.Close()
-	r := bufio.NewReader(f)
+	defer file.Close()
+	reader := bufio.NewReader(file)
 	for {
-		s, err := r.ReadString('\n')
-		if err != nil {
+		line, error := reader.ReadString('\n')
+		if error != nil {
 			break
 		}
-		if strings.Contains(s, *level) {
-			fmt.Println(s)
+		if strings.Contains(line, *level) {
+			fmt.Println(line)
 		}
 	}
 }
