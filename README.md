@@ -1,5 +1,7 @@
 # Learning Go
 
+![Pages workflow badge](https://github.com/devpro/learning-go/actions/workflows/pages.yml/badge.svg)
+
 Get information to ease your journey into learning [Go](https://go.dev/) programming language.
 
 ## Content
