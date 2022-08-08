@@ -1,31 +1,26 @@
-# Learning Go programming language
+# Learning Go
 
-Start programming with [Go](https://go.dev/).
+Get information to ease your journey into learning [Go](https://go.dev/) programming language.
+
+## Content
+
+* [CLI](docs/cli.md)
+* [Code editors & IDE](docs/editors.md)
+* Code samples
+  * [Log CLI](samples/log-cli/README.md)
+  * [Static Web Service](samples/static-web-service/README.md)
+* [Project files](docs/project-files.md)
+* [Quality](docs/quality.md)
+
+## History
+
+Go was created at Google in 2007 and first released to the public in 2009.
+
+## Documentation
+
+* [go.dev/doc](https://go.dev/doc/)
 
 ## Training courses
 
 * Pluralsight
-  * [Go: The Big Picture](https://app.pluralsight.com/library/courses/go-big-picture/table-of-contents) by Mike Van Sickle
-
-## Code editors (IDE)
-
-### JetBrains Goland
-
-* Shortcuts
-
-| Shortcut                       | Action                                      |
-|--------------------------------|---------------------------------------------|
-| `Alt` + `5`                    | Open / Close the Debug tool window          |
-| `Ctrl` + `Space`               | Open completion list                        |
-| `Ctrl` + `Space` (twice)       | Search for methods                          |
-| `Ctrl` + `Shift` + `Space`     | List of matching suggestions                |
-| `Alt` + `Enter`                | Preview warnings and apply fixes            |
-| `Shift` + `Shift`              | Open the Search Everywhere dialog           |
-| `F2`                           | Go to the next highlighted error            |
-| `Ctrl` + `Q`                   | Invoke the Quick Documentation action       |
-| `Ctrl` + `Shift` + `A`         | Display Actions menu                        |
-| `Ctrl` + `W`                   | Extend the selection to the next code block |
-| `Ctrl` + `Shift` + `W`         | Shrink the selection                        |
-| `Ctrl` + `/`                   | Comment/uncomment out the line              |
-| `Ctrl` + `Shift` + `/`         | Comment/uncomment out a block of code       |
-| `Ctrl` + `Alt` + `Shift` + `T` | Open Refactor This window                   |
+  * [Go Core Language](https://app.pluralsight.com/paths/skill/go-core-language)
