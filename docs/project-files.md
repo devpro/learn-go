@@ -5,9 +5,9 @@
 ```
 <root>/
 ├─ pkg/
-│  ├─ <somepkg1>
+│  ├─ <somepkg1>/
 │  │  └─ <...>
-│  └─ <somepkg2>
+│  └─ <somepkg2>/
 ├─ .golangci.yaml
 ├─ go.mod
 └─ go.sum

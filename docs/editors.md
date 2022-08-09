@@ -2,7 +2,7 @@
 
 ## GoLand (JetBrains license)
 
-⟶ [jetbrains.com/go](https://www.jetbrains.com/go/)
+→ [jetbrains.com/go](https://www.jetbrains.com/go/)
 
 * Shortcuts
 
