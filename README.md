@@ -21,6 +21,7 @@ Go was created at Google in 2007 and first released to the public in 2009.
 ## Documentation
 
 * [go.dev/doc](https://go.dev/doc/)
+  * [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
 
 ## Training courses
 
