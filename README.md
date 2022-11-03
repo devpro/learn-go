@@ -11,6 +11,7 @@ Get information to ease your journey into learning [Go](https://go.dev/) program
 * Code samples
   * [Log CLI](samples/log-cli/README.md)
   * [Static Web Service](samples/static-web-service/README.md)
+* [Packages](docs/packages.md)
 * [Project files](docs/project-files.md)
 * [Quality](docs/quality.md)
 
