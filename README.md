@@ -6,6 +6,7 @@ Get information to ease your journey into learning [Go](https://go.dev/) program
 
 ## Content
 
+* [Automation](docs/automation.md)
 * [CLI](docs/cli.md)
 * [Code editors & IDE](docs/editors.md)
 * Code samples
@@ -44,3 +45,5 @@ Go was created at Google in 2007 and first released to the public in 2009.
 ## Samples
 
 * [GoogleCloudPlatform/golang-samples](https://github.com/GoogleCloudPlatform/golang-samples)
+* [temporalio/samples-go](https://github.com/temporalio/samples-go)
+* [apache/dubbo-go-samples](https://github.com/apache/dubbo-go-samples)
