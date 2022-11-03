@@ -40,3 +40,7 @@ Go was created at Google in 2007 and first released to the public in 2009.
   * [Go Core Language](https://app.pluralsight.com/paths/skill/go-core-language)
 * Youtube
   * [Learn Go Programming - Golang Tutorial for Beginners](https://www.youtube.com/watch?v=YS4e4q9oBaU) by freeCodeCamp.org
+
+## Samples
+
+* [GoogleCloudPlatform/golang-samples](https://github.com/GoogleCloudPlatform/golang-samples)
