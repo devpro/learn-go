@@ -17,4 +17,11 @@ jobs:
       with:
         go-version: 1.19
     - name: Build Go projects
-      run: go build -v ./samples/...
+      run: |
+        ROOT_DIR=$(pwd)
+        for directory in samples/*
+        do
+          cd $directory
+          go build
+          cd $ROOT_DIR
+        done
