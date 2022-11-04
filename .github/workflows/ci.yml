@@ -14,6 +14,10 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+concurrency:
+  group: "ci"
+  cancel-in-progress: true
+
 env:
   GOLANGCILINT_VERSION: "v1.50.1"
 
