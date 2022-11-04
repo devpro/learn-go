@@ -21,11 +21,17 @@ func main() {
 			encoder := json.NewEncoder(writer)
 			err := encoder.Encode(values)
 			if err != nil {
-				writer.Write([]byte("Error while encoding"))
+				log.Print("Impossible to write json output in response ", err)
 			}
 		} else {
-			// raw output
-			writer.Write([]byte("Hello " + name))
+			_, err := writer.Write([]byte("Hello " + name))
+			if err != nil {
+				writer.WriteHeader(500)
+				_, err := writer.Write([]byte("Error while writing response"))
+				if err != nil {
+					log.Print("Impossible to write error in response")
+				}
+			}
 		}
 	})
 
