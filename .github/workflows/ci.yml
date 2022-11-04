@@ -2,7 +2,7 @@
 # Title: Continuous Integration
 #
 # Uses:
-#   - https://github.com/golangci/golangci-lint-action
+#   - https://golangci-lint.run/
 # ---------------------------------------------------------
 
 name: CI
@@ -36,6 +36,7 @@ jobs:
           go build -v
           cd $ROOT_DIR
         done
+    # https://github.com/golangci/golangci-lint-action can't be used on several directories
     - name: Install Go linter
       run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin ${GOLANGCILINT_VERSION}
     - name: Lint Go projects

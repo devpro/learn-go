@@ -19,7 +19,10 @@ func main() {
 			// json output
 			values := map[string]string{"name": name}
 			encoder := json.NewEncoder(writer)
-			encoder.Encode(values)
+			err := encoder.Encode(values)
+			if err != nil {
+				writer.Write([]byte("Error while encoding"))
+			}
 		} else {
 			// raw output
 			writer.Write([]byte("Hello " + name))
