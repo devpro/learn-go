@@ -1,3 +1,10 @@
+# ---------------------------------------------------------
+# Title: Continuous Integration
+#
+# Uses:
+#   - https://golangci-lint.run/
+# ---------------------------------------------------------
+
 name: CI
 
 on:
@@ -5,9 +12,12 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
+
+env:
+  GOLANGCILINT_VERSION: "v1.50.1"
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
     steps:
@@ -17,7 +27,24 @@ jobs:
       uses: actions/setup-go@v3
       with:
         go-version: 1.19
-    - name: Build
-      run: go build -v ./samples/...
-    - name: Test
-      run: go test -v ./samples/...
+    - name: Build Go projects
+      run: |
+        ROOT_DIR=$(pwd)
+        for directory in samples/*
+        do
+          cd $directory
+          go build -v
+          cd $ROOT_DIR
+        done
+    # https://github.com/golangci/golangci-lint-action can't be used on several directories
+    - name: Install Go linter
+      run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin ${GOLANGCILINT_VERSION}
+    - name: Lint Go projects
+      run: |
+        ROOT_DIR=$(pwd)
+        for directory in samples/*
+        do
+          cd $directory
+          golangci-lint run -v
+          cd $ROOT_DIR
+        done

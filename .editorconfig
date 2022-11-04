@@ -16,6 +16,6 @@ indent_size = 4
 indent_style = tab
 indent_size = 4
 
-[*.go]
+[*.{go,mod}]
 indent_style = tab
 indent_size = 4

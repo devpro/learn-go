@@ -7,7 +7,7 @@ cd samples/static-web-service
 
 go build .
 
-samples.exe
+static-web-service.exe
 
 # from another terminal
 
