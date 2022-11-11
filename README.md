@@ -15,6 +15,7 @@ Get information to ease your journey into learning [Go](https://go.dev/) program
   * [Log CLI](samples/log-cli/README.md)
   * [Static Web Service](samples/static-web-service/README.md)
 * [Concepts](docs/concepts.md)
+* [Naming Conventions](docs/naming-convention.md)
 * [Packages](docs/packages.md)
 * [Project files](docs/project-files.md)
 * [Quality](docs/quality.md)
