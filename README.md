@@ -1,4 +1,4 @@
-# Learning Go
+# Learn Go
 
 [![CI](https://github.com/devpro/learning-go/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/devpro/learning-go/actions/workflows/ci.yml)
 [![Pages](https://github.com/devpro/learning-go/actions/workflows/pages.yml/badge.svg)](https://github.com/devpro/learning-go/actions/workflows/pages.yml)
