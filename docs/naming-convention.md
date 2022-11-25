@@ -37,4 +37,8 @@ type Stringer interfaces {
 }
 ```
 
-See [Go best practices (Ashley McNamara + Brian Ketelsen)](https://www.youtube.com/watch?v=MzTcsI6tn-0)
+## References
+
+* [Go best practices (Ashley McNamara + Brian Ketelsen)](https://www.youtube.com/watch?v=MzTcsI6tn-0)
+* [GoLang Naming Rules and Conventions](https://medium.com/@kdnotes/golang-naming-rules-and-conventions-8efeecd23b68)
+* [Golang Bot Constants](https://golangbot.com/constants/)
