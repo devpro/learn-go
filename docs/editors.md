@@ -8,12 +8,14 @@
 
 | Shortcut                       | Action                                      |
 |--------------------------------|---------------------------------------------|
+| `Shift` + `F6`                 | Rename                                      |
 | `Alt` + `5`                    | Open / Close the Debug tool window          |
 | `Ctrl` + `Space`               | Open completion list                        |
 | `Ctrl` + `Space` (twice)       | Search for methods                          |
 | `Ctrl` + `Shift` + `Space`     | List of matching suggestions                |
 | `Alt` + `Enter`                | Preview warnings and apply fixes            |
 | `Shift` + `Shift`              | Open the Search Everywhere dialog           |
+| `Ctrl` + `Shift` + `F`         | Find in Files                               |
 | `F2`                           | Go to the next highlighted error            |
 | `Ctrl` + `Q`                   | Invoke the Quick Documentation action       |
 | `Ctrl` + `Shift` + `A`         | Display Actions menu                        |
