@@ -30,6 +30,7 @@ Go was created at Google in 2007 and first released to the public in 2009.
   * [Tutorial: Get started with Go](https://go.dev/doc/tutorial/getting-started)
 * [github.com/golang/go](https://github.com/golang/go)
 * [Devpro cheatsheet](https://everyday-cheatsheets.docs.devpro.fr/build/languages/go)
+* [baijum/essential-go](https://github.com/baijum/essential-go)
 
 ## Training courses
 
